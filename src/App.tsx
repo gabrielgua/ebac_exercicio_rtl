@@ -5,8 +5,9 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.app}>
-      <Post imageUrl="https://www.orangeboxminiaturas.com.br/img/products/batmovel-1989-figura-batman-em-metal-jada-toys-1-24-jad-98260_1_1000.jpg">
-        Olha só que legal minha miniatura do Batmóvel.
+      <h1>Posts</h1>
+      <Post imageUrl="https://cdn.awsli.com.br/2500x2500/2571/2571273/produto/210255920/porsche-911-993-1998-ruf-turbo-r-118-gt-spirit-2d3e13a2.jpg">
+        Olha só que legal minha miniatura do Porsche 911 1998 Ruf Turbo GT Spirit.
       </Post>
     </div>
   );
